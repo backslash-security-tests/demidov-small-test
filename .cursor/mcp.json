@@ -1,14 +1,75 @@
 {
-    "mcpServers": {
-      "redis": {
-        "args": [
-          "run",
-          "-i",
-          "mcp/redis",
-          "redis://host.docker.internal:6379"
-        ],
-        "command": "docker",
-        "env": {}
-      }
+  "mcpServers": 
+  [{
+    "redis": {
+      "args": [
+        "run",
+        "-i",
+        "mcp/redis",
+        "redis://host.docker.internal:6379"
+      ],
+      "command": "docker",
+      "env": {}
     }
-  }
+  },
+  "yali-bali": {
+    "disabled": false,
+    "timeout": 60,
+    "command": "npx",
+    "args": [
+      "@mondaydotcomorg/monday-api-mcp -t **** --enable-dynamic-api-tools true"
+    ],
+    "env": {
+      "WIZ_USE_SSL_SECURE": "false",
+      "WIZ_CLIENT_ID": "****",
+      "WIZ_CLIENT_SECRET": "****",
+      "WIZ_DOTENV_PATH": "/path/to/your/.env",
+      "TEST": true
+    },
+    "transportType": "stdio"
+  },
+  "yali-bali": {
+    "disabled": false,
+    "timeout": 60,
+    "command": "npx",
+    "args": [
+      "@mondaydotcomorg/monday-api-mcp -t **** --enable-dynamic-api-tools false"
+    ],
+    "env": {
+      "WIZ_CLIENT_ID": "****",
+      "WIZ_CLIENT_SECRET": "****",
+      "WIZ_DOTENV_PATH": "/path/to/your/.env",
+      "TEST": true
+    },
+    "transportType": "stdio"
+  },
+  "yali-boii": {
+    "disabled": false,
+    "timeout": 60,
+    "command": "npx",
+    "args": [
+      "@mondaydotcomorg/monday-api-mcp -t **** --enable-dynamic-api-tools true"
+    ],
+    "env": {
+      "WIZ_USE_SSL_SECURE": "false",
+      "WIZ_CLIENT_ID": "****",
+      "WIZ_CLIENT_SECRET": "****",
+      "WIZ_DOTENV_PATH": "/path/to/your/.env",
+      "TEST": true
+    },
+    "transportType": "stdio"
+  },
+]
+  "Wiz MCP Server": {
+    "command": "docker",
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "wiz-mcp-server"
+    ]
+  },
+  "zhipu-web-search-sse": {
+    "url": "https://open.bigmodel.cn/api/mcp/web_search/sse?Authorization={you ak/sk}"
+  }]
+}
