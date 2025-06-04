@@ -5,6 +5,7 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 yarn.lock
+haha
 
 # Build outputs
 dist/
@@ -20,7 +21,7 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
-
+a
 # IDE specific files
 .idea/
 .vscode/*
@@ -48,3 +49,6 @@ coverage/
 # Debug files
 .debug/
 debug.log 
+
+
+
