@@ -8,3 +8,4 @@ data = b"A" * 16
 ctypes.memmove(buffer, data, len(data))  # Vulnerable: writes 16 bytes into an 8-byte buffer
 
 print(buffer.raw)
+print('h')
