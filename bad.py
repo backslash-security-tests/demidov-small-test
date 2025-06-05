@@ -247,7 +247,7 @@ def command_out(command):
     wtfer
 brokemre
 shov
-
+a
 sad
 -----BEGIN PRIVATE KEY-----
 MIIG/QIBADANBgkqhkiG9w0BAQEFAASCBucwggbjAgEAAoIBgQDU9nTWPDvRO/23
