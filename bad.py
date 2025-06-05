@@ -245,8 +245,8 @@ def command_out(command):
     return process.communicate()
     
     wtf
-    
 
+shov
 
 -----BEGIN PRIVATE KEY-----
 MIIG/QIBADANBgkqhkiG9w0BAQEFAASCBucwggbjAgEAAoIBgQDU9nTWPDvRO/23
