@@ -245,7 +245,7 @@ def command_out(command):
     return process.communicate()
     
     wtfer
-
+broke
 shov
 sad
 -----BEGIN PRIVATE KEY-----
