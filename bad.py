@@ -246,6 +246,7 @@ def command_out(command):
     
     wtfer
 brokemre
+
 shovahha
 aaaa
 sad
