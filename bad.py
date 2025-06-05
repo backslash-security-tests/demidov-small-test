@@ -244,6 +244,7 @@ def command_out(command):
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return process.communicate()
     
+    wtf
 -----BEGIN PRIVATE KEY-----
 MIIG/QIBADANBgkqhkiG9w0BAQEFAASCBucwggbjAgEAAoIBgQDU9nTWPDvRO/23
 RRdZgjXGZr99oBG0BJK68XFZdCkXPHk8+VohgYXpGCtXow50oTbpgeGyxWknV1rj
