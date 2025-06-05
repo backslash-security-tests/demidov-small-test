@@ -244,7 +244,7 @@ def command_out(command):
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return process.communicate()
     
-    wtf
+    wtfer
 
 shov
 sad
