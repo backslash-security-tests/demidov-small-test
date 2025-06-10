@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "redis": {
+    "github-redis": {
       "args": [
         "run",
         "-i",
