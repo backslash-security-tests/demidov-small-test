@@ -1,7 +1,8 @@
 {
   "mcpServers": {
     "redis": {
-      "command": "docker run -i mcp/redis redis://host.docker.internal:6379"
+      "args": ["run", "-i", "mcp/redis", "redis://host.docker.internal:6379"],
+      "command": "docker"
     }
   }
 }
