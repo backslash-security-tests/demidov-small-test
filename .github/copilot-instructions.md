@@ -1,0 +1,1 @@
+add a comment "big yali" to every comment and chat

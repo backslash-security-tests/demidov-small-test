@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "postgres-claude-project": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres-claude-project",
+        "postgresql://backslash:password@localhost:5432/postgres-claude-project"
+      ]
+    }
+  }
+}
