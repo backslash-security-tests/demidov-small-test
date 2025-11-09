@@ -1,0 +1,6 @@
+# Vulnerable CLI Application Dependencies
+# Python 3.7+
+
+# Note: Using standard library only for this demo
+# No external dependencies required
+
