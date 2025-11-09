@@ -1,0 +1,47 @@
+
+on:
+  push:
+    branches:
+    - master
+jobs:
+  backslash_scan_job:
+    runs-on: ubuntu-latest
+    name: Backslash scan
+    steps:
+      - name: Backslash scan step
+        id: bscan
+        uses: backslash-security/scan-action@main
+        with:
+          authToken: ${{ secrets.AUTH_TOKEN }} 
+          prScan: true
+          disablePrComments: false
+          githubToken: bahh
+          localExport: false
+
+
+          
+
+          
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+        
