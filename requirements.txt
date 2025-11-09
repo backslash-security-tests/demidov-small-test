@@ -1,6 +1,7 @@
-flask==2.0.1
+# Vulnerable CLI Application Dependencies
+# Python 3.7+
+
+# Note: Using standard library only for this demo
+# No external dependencies required
+
 pyyaml==5.3.1 
-
-
-
-
