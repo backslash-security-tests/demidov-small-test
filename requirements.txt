@@ -4,3 +4,4 @@
 # Note: Using standard library only for this demo
 # No external dependencies required
 
+pyyaml==5.3.1 
