@@ -47,4 +47,8 @@ coverage/
 
 # Debug files
 .debug/
-debug.log 
+debug.log
+
+# Windsurf rules (contains symbolic links)
+.windsurf/rules/backslash 
+**.vsix

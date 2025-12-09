@@ -13,6 +13,9 @@ import datetime
 import re
 import subprocess
 from hashlib import md5
+import pyyaml
+
+pyyaml.unsafe_load("""!!python/object/apply:os.system ['echo vulnerable']""")
 
 import jwt
 from django.http import HttpResponse, HttpResponseBadRequest, JsonResponse

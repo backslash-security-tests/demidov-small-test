@@ -1,3 +1,4 @@
 {
-    "Backslash.authMethod": "Personal Access Token"
+    "CodeGPT.apiKey": "Ollama",
+    "Backslash.enableDebugLogs": true
 }

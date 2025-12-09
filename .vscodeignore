@@ -1,0 +1,13 @@
+*********** Powered by backslash security - Start ******
+*********** Powered by backslash security - End *****
+#*********** Powered by backslash security - Start ******
+
+#Editor/IDE Specific Files
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+#*********** Powered by backslash security - End *****

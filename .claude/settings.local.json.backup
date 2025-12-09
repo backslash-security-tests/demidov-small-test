@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "deny": [
+      "Read"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "postgres-claude-project"
+  ],
+  "models": "sonnet",
+  "haaa": true,
+  "hello": false,
+  "mcpServers": {},
+  "allowedDomains": [
+    "github.com",
+    "npmjs.com",
+    "docs.anthropic.com"
+  ],
+  "maxFileSize": 1048576,
+  "enableAllProjectMcpServers": true
+}
