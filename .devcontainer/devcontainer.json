@@ -1,7 +1,6 @@
 {
   "name": "Node 20 + Python 3.12",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "runArgs": ["--network=host"],
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "20",
@@ -15,15 +14,16 @@
     "vscode": {
       "extensions": [
         "anthropic.claude-code",
-        "${containerWorkspaceFolder}/backslash-scan-4.4.19.vsix",
         "vscode-icons-team.vscode-icons"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "Backslash.enableDebugLogs": true
       }
     }
   },
   "postCreateCommand": "node --version && python --version",
+  "postStartCommand": "code --install-extension ${containerWorkspaceFolder}/backslash-scan-*.vsix --force 2>/dev/null || true",
   "remoteUser": "vscode"
 }
