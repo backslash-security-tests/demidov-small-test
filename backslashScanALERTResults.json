@@ -1,0 +1,1212 @@
+[
+  {
+    "findingName": "sql.js 1.13.0",
+    "findingId": 1,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/sql.js@1.13.0",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sql.js.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sql.js.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/sql.js@1.13.0"
+        ]
+      ],
+      "attributes": [
+        "DIRECT"
+      ]
+    }
+  },
+  {
+    "findingName": "better-sqlite3 7.6.13",
+    "findingId": 2,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40types/better-sqlite3@7.6.13",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package better-sqlite3.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package better-sqlite3.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "node 18.19.96",
+    "findingId": 3,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40types/node@18.19.96",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "undici-types 5.26.5",
+    "findingId": 4,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/@types/better-sqlite3@7.6.13, pkg:npm/@types/sql.js@1.4.9, pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package undici-types.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package undici-types.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/@types/better-sqlite3@7.6.13",
+          "pkg:npm/@types/node@18.19.96",
+          "pkg:npm/undici-types@5.26.5"
+        ],
+        [
+          "pkg:npm/@types/sql.js@1.4.9",
+          "pkg:npm/@types/node@18.19.96",
+          "pkg:npm/undici-types@5.26.5"
+        ],
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/@types/node@18.19.96",
+          "pkg:npm/undici-types@5.26.5"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "sql.js 1.4.9",
+    "findingId": 5,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40types/sql.js@1.4.9",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sql.js.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sql.js.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "emscripten 1.40.1",
+    "findingId": 6,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40types/emscripten@1.40.1",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package emscripten.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package emscripten.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "ts-node 10.9.2",
+    "findingId": 7,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package ts-node.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package ts-node.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2"
+        ]
+      ],
+      "attributes": [
+        "DIRECT"
+      ]
+    }
+  },
+  {
+    "findingName": "source-map-support 0.8.1",
+    "findingId": 9,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40cspotcode/source-map-support@0.8.1",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package source-map-support.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package source-map-support.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "trace-mapping 0.3.9",
+    "findingId": 10,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40jridgewell/trace-mapping@0.3.9",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package trace-mapping.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package trace-mapping.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "resolve-uri 3.1.2",
+    "findingId": 11,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package resolve-uri.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package resolve-uri.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "sourcemap-codec 1.5.0",
+    "findingId": 12,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40jridgewell/sourcemap-codec@1.5.0",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sourcemap-codec.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package sourcemap-codec.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "node10 1.0.11",
+    "findingId": 13,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40tsconfig/node10@1.0.11",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node10.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node10.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "node12 1.0.11",
+    "findingId": 14,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40tsconfig/node12@1.0.11",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node12.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node12.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "node14 1.0.3",
+    "findingId": 15,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40tsconfig/node14@1.0.3",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node14.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node14.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "node16 1.0.4",
+    "findingId": 16,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/%40tsconfig/node16@1.0.4",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node16.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package node16.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access."
+    }
+  },
+  {
+    "findingName": "acorn 8.14.1",
+    "findingId": 17,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package acorn.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package acorn.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/acorn-walk@8.3.4",
+          "pkg:npm/acorn@8.14.1"
+        ],
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/acorn@8.14.1"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "acorn-walk 8.3.4",
+    "findingId": 18,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package acorn-walk.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package acorn-walk.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/acorn-walk@8.3.4"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "arg 4.1.3",
+    "findingId": 19,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package arg.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package arg.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/arg@4.1.3"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "create-require 1.1.1",
+    "findingId": 20,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package create-require.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package create-require.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/create-require@1.1.1"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "v8-compile-cache-lib 3.0.1",
+    "findingId": 23,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package v8-compile-cache-lib.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package v8-compile-cache-lib.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/v8-compile-cache-lib@3.0.1"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "yn 3.1.1",
+    "findingId": 24,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "MIT License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package yn.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package yn.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/yn@3.1.1"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "- 0.0.1",
+    "findingId": 0,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/-@0.0.1",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package -.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package -.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/-@0.0.1"
+        ]
+      ],
+      "attributes": [
+        "DIRECT"
+      ]
+    }
+  },
+  {
+    "findingName": "typescript 4.9.5",
+    "findingId": 8,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2, pkg:npm/typescript@4.9.5",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "Apache License 2.0",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package typescript.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package typescript.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/typescript@4.9.5"
+        ],
+        [
+          "pkg:npm/typescript@4.9.5"
+        ]
+      ],
+      "attributes": [
+        "DIRECT",
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "diff 4.0.2",
+    "findingId": 21,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package diff.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package diff.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/diff@4.0.2"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "make-error 1.3.6",
+    "findingId": 22,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:npm/ts-node@10.9.2",
+    "sourceFiles": "/workspaces/demidov-small-test/package-lock.json",
+    "linkToAffectedCode": "/workspaces/demidov-small-test/package-lock.json#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "ISC License",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package make-error.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package make-error.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [
+        [
+          "pkg:npm/ts-node@10.9.2",
+          "pkg:npm/make-error@1.3.6"
+        ]
+      ],
+      "attributes": [
+        "TRANSITIVE"
+      ]
+    }
+  },
+  {
+    "findingName": "scan-action main",
+    "findingId": 25,
+    "policyCategory": "VULNERABLE_OSS_PACKAGES",
+    "findingType": "SCA_PACKAGE",
+    "introducedThrough": "pkg:github/backslash-security/scan-action@main",
+    "sourceFiles": "",
+    "linkToAffectedCode": "null#1",
+    "recommendedFixedVersion": "",
+    "details": "0 Critical, 0 High, 0 Medium, 0 Low\n--\n            Highest CVSS score: undefined\n            Top vulnerabilities: ",
+    "status": "ALERT",
+    "licenses": "",
+    "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package scan-action.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "The vulnerabilities in this package do not have an official fix yet.\n • Consider replacing or removing the package scan-action.\n • Add compensating controls to mitigate the risk.\n • Reduce the application exposure and access.",
+      "dependencyTree": [],
+      "attributes": []
+    }
+  },
+  {
+    "findingName": "github-pat",
+    "findingId": 3.402625769858725,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "ghp_1234567890abcdef********************",
+    "linkToAffectedCode": ".vscode/mcp copy.json#23",
+    "recommendedFixedVersion": "",
+    "details": "GitHub Personal Access Token",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "github-pat",
+    "findingId": 3.709521336077115,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "ghp_1234567890abcdef********************",
+    "linkToAffectedCode": ".vscode/mcp copy.json#24",
+    "recommendedFixedVersion": "",
+    "details": "GitHub Personal Access Token",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "github-pat",
+    "findingId": 8.540624171984884,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "ghp_1234567890abcdef********************",
+    "linkToAffectedCode": ".vscode/mcp copy.json#30",
+    "recommendedFixedVersion": "",
+    "details": "GitHub Personal Access Token",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "github-pat",
+    "findingId": 3.8457273233226186,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "ghp_1234567890abcdef********************",
+    "linkToAffectedCode": ".vscode/mcp_example.json.x#19",
+    "recommendedFixedVersion": "",
+    "details": "GitHub Personal Access Token",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 7.076540058333336,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "TOKEN\": \"********************************************\"",
+    "linkToAffectedCode": ".vscode/mcp copy.json#28",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 1.8445360306163838,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "TOKEN\": \"*******************************************************",
+    "linkToAffectedCode": ".vscode/mcp copy.json#29",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 6.922882996314764,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "KEY\": \"***********************",
+    "linkToAffectedCode": ".vscode/mcp copy.json#32",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 9.53387309827863,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "TOKEN\": \"********************************************\"",
+    "linkToAffectedCode": ".vscode/mcp_example.json.x#17",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 3.075305277353537,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "TOKEN\": \"*******************************************************",
+    "linkToAffectedCode": ".vscode/mcp_example.json.x#18",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 8.081962411793981,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "KEY\": \"***********************",
+    "linkToAffectedCode": ".vscode/mcp_example.json.x#21",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 0.38420025975980376,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "authenticated:  \n        *******",
+    "linkToAffectedCode": "AGENTS.md#174",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "hardcoded-credentials",
+    "findingId": 8.14935218397155,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "secret = '*******************",
+    "linkToAffectedCode": "bad.py#247",
+    "recommendedFixedVersion": "",
+    "details": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "private-key",
+    "findingId": 9.948673434077042,
+    "policyCategory": "INSECURE_SECRETS",
+    "findingType": "SECRET",
+    "codeSnippet": "-----BEGIN RSA PRIVATE KEY-----\\********************************",
+    "linkToAffectedCode": "bad.py#249",
+    "recommendedFixedVersion": "",
+    "details": "Private Key",
+    "status": "ALERT",
+    "recommendationText": "Rotate the secret and remove it from the source code.",
+    "additionalData": {
+      "severity": "LOW",
+      "cweReference": "https://appsec.backslash.security/cwe/undefined",
+      "recommendationText": "Rotate the secret and remove it from the source code."
+    }
+  },
+  {
+    "findingName": "Deserialization of Untrusted Data",
+    "findingId": 9.964269884557023,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "return yaml.load(data)",
+    "linkToAffectedCode": "vulnerable_app.py#45",
+    "recommendedFixedVersion": "",
+    "details": "Avoid using `load()`. `PyYAML.load` can create arbitrary Python objects. A malicious actor\n    could exploit this to run arbitrary code. Use `safe_load()` instead. It is recommended to use\n    `SafeLoader`\n    when loading yaml.\n    ",
+    "status": "ALERT",
+    "recommendationText": "Replace all instances of `yaml.load()` and related functions with `yaml.safe_load()` or `yaml.load_all()` using `Loader=yaml.SafeLoader`. This ensures that only basic YAML data types are safely deserialized, preventing the execution of arbitrary code from untrusted YAML input. Always validate and sanitize any data coming from external sources, and consider using a library like `ruamel.yaml` which provides better support for safe deserialization.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Deserialization of Untrusted Data",
+      "cweReference": "https://appsec.backslash.security/cwe/502",
+      "recommendationText": "Replace all instances of `yaml.load()` and related functions with `yaml.safe_load()` or `yaml.load_all()` using `Loader=yaml.SafeLoader`. This ensures that only basic YAML data types are safely deserialized, preventing the execution of arbitrary code from untrusted YAML input. Always validate and sanitize any data coming from external sources, and consider using a library like `ruamel.yaml` which provides better support for safe deserialization.",
+      "fixExample": {
+        "before": "import yaml\n\ndata = yaml.load(some_yaml_string)",
+        "after": "import yaml\n\ndata = yaml.safe_load(some_yaml_string)  # The sanitization function can be modified according to the software engineer's requirements."
+      }
+    }
+  },
+  {
+    "findingName": "OS Command Injection",
+    "findingId": 8.056281678030421,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "result = subprocess.check_output(f'ping -c 1 {host}', shell=True)",
+    "linkToAffectedCode": "vulnerable_app.py#22",
+    "recommendedFixedVersion": "",
+    "details": "Found `subprocess` function `check_output` with `shell=True`. This is dangerous because this call will\n    spawn the command using a shell process. Doing so propagates current shell settings and\n    variables,\n    which makes it much easier for a malicious actor to execute commands. Use `shell=False`\n    instead.\n    ",
+    "status": "ALERT",
+    "recommendationText": "Replace calls to 'subprocess' with 'shell=True' with alternatives that use 'shell=False'. This is safer because it avoids executing commands through a shell, thereby minimizing the risk of OS command injection. Always validate and sanitize any user input that may be used in command execution to further reduce vulnerabilities. Consider using built-in libraries for argument handling like 'shlex.quote' to escape commands properly when needed.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "OS Command Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/78",
+      "recommendationText": "Replace calls to 'subprocess' with 'shell=True' with alternatives that use 'shell=False'. This is safer because it avoids executing commands through a shell, thereby minimizing the risk of OS command injection. Always validate and sanitize any user input that may be used in command execution to further reduce vulnerabilities. Consider using built-in libraries for argument handling like 'shlex.quote' to escape commands properly when needed.",
+      "fixExample": {
+        "before": "import subprocess\n\nsubprocess.Popen('ls -la', shell=True)",
+        "after": "import subprocess\nimport shlex\n\nsubprocess.Popen(shlex.split('ls -la'))  # Ensure command is sanitized as necessary"
+      }
+    }
+  },
+  {
+    "findingName": "Deserialization of Untrusted Data",
+    "findingId": 4.704714739909372,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "return pickle.loads(data)",
+    "linkToAffectedCode": "vulnerable_app.py#38",
+    "recommendedFixedVersion": "",
+    "details": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities.\n    When unpickling, the serialized data could be manipulated to run arbitrary code.\n    Instead, consider serializing the relevant data as JSON or a similar text-based\n    serialization format.\n    ",
+    "status": "ALERT",
+    "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Deserialization of Untrusted Data",
+      "cweReference": "https://appsec.backslash.security/cwe/502",
+      "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+      "fixExample": {
+        "before": "import pickle\n\nserialized_data = ...\nresult = pickle.loads(serialized_data)",
+        "after": "import json\n\nserialized_data = ...\n# Validate or sanitize data here if necessary\nresult = json.loads(serialized_data) # The sanitization or validation function can be modified according to the software engineer's requirements."
+      }
+    }
+  },
+  {
+    "findingName": "Eval Injection",
+    "findingId": 8.991105318806753,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "eval('var processed = ' + userData); // Dangerous eval usage",
+    "linkToAffectedCode": "sussy_baka.js#11",
+    "recommendedFixedVersion": "",
+    "details": "Detected eval(variable), which could allow a malicious actor to run arbitrary code.",
+    "status": "ALERT",
+    "recommendationText": "Replace the usage of eval with safer alternatives. Use JSON parsing or other appropriate libraries depending on the context, and ensure all input is properly validated and sanitized. Avoid dynamic execution of code whenever possible.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Eval Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/95",
+      "recommendationText": "Replace the usage of eval with safer alternatives. Use JSON parsing or other appropriate libraries depending on the context, and ensure all input is properly validated and sanitized. Avoid dynamic execution of code whenever possible.",
+      "fixExample": {
+        "before": "let userInput = getUserInput();\neval(userInput);",
+        "after": "let userInput = getUserInput();\n// Example of basic input validation\nif (isValid(userInput)) {\n    // Process the input securely without eval\n    let parsedData = JSON.parse(userInput); // Use this if userInput is expected to be JSON string\n    // Continue processing parsedData...\n}\n// Validation function can be modified to meet specific needs."
+      }
+    }
+  },
+  {
+    "findingName": "SQL Injection",
+    "findingId": 5.524898749164171,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "SqlCommand cmd = new SqlCommand(query, conn);",
+    "linkToAffectedCode": "sqli.cs#33",
+    "recommendedFixedVersion": "",
+    "details": "SQL Injection is a critical vulnerability that can lead to data or system compromise , By dynamically generating SQL query strings, user input may be able to influence the logic of the SQL statement. This could lead to an adversary accessing information they should not have access to, or in some circumstances, being able to execute OS functionality or code. Replace all dynamically generated SQL queries with parameterized queries. In situations where dynamic queries must be created, never use direct user input, but instead use a map or dictionary of valid values and resolve them using a user supplied key.",
+    "status": "ALERT",
+    "recommendationText": "Replace all dynamically generated SQL queries with parameterized queries to prevent SQL injection vulnerabilities. Input should always be validated and sanitized. Consider libraries that inherently support safe database access patterns, such as Entity Framework or Dapper, which encourage parameterized queries. In cases where dynamic SQL is necessary, utilize a map or dictionary to control allowable values rather than directly incorporating user inputs into query strings.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "SQL Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/89",
+      "recommendationText": "Replace all dynamically generated SQL queries with parameterized queries to prevent SQL injection vulnerabilities. Input should always be validated and sanitized. Consider libraries that inherently support safe database access patterns, such as Entity Framework or Dapper, which encourage parameterized queries. In cases where dynamic SQL is necessary, utilize a map or dictionary to control allowable values rather than directly incorporating user inputs into query strings.",
+      "fixExample": {
+        "before": "string query = \"SELECT * FROM users WHERE username = '\" + userInput + \"'\";\nvar command = new SqlCommand(query, connection);",
+        "after": "string query = \"SELECT * FROM users WHERE username = @username\";\nvar command = new SqlCommand(query, connection);\ncommand.Parameters.AddWithValue(\"@username\", userInput); // Ensure userInput is validated/sanitized as necessary."
+      }
+    }
+  },
+  {
+    "findingName": "SQL Injection",
+    "findingId": 7.354614130262529,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "SqlDataReader reader = cmd.ExecuteReader();",
+    "linkToAffectedCode": "sqli.cs#34",
+    "recommendedFixedVersion": "",
+    "details": "SQL Injection is a critical vulnerability that can lead to data or system compromise , By dynamically generating SQL query strings, user input may be able to influence the logic of the SQL statement. This could lead to an adversary accessing information they should not have access to, or in some circumstances, being able to execute OS functionality or code. Replace all dynamically generated SQL queries with parameterized queries. In situations where dynamic queries must be created, never use direct user input, but instead use a map or dictionary of valid values and resolve them using a user supplied key.",
+    "status": "ALERT",
+    "recommendationText": "Replace all dynamically generated SQL queries with parameterized queries to prevent SQL injection vulnerabilities. Input should always be validated and sanitized. Consider libraries that inherently support safe database access patterns, such as Entity Framework or Dapper, which encourage parameterized queries. In cases where dynamic SQL is necessary, utilize a map or dictionary to control allowable values rather than directly incorporating user inputs into query strings.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "SQL Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/89",
+      "recommendationText": "Replace all dynamically generated SQL queries with parameterized queries to prevent SQL injection vulnerabilities. Input should always be validated and sanitized. Consider libraries that inherently support safe database access patterns, such as Entity Framework or Dapper, which encourage parameterized queries. In cases where dynamic SQL is necessary, utilize a map or dictionary to control allowable values rather than directly incorporating user inputs into query strings.",
+      "fixExample": {
+        "before": "string query = \"SELECT * FROM users WHERE username = '\" + userInput + \"'\";\nvar command = new SqlCommand(query, connection);",
+        "after": "string query = \"SELECT * FROM users WHERE username = @username\";\nvar command = new SqlCommand(query, connection);\ncommand.Parameters.AddWithValue(\"@username\", userInput); // Ensure userInput is validated/sanitized as necessary."
+      }
+    }
+  },
+  {
+    "findingName": "OS Command Injection",
+    "findingId": 4.758053165400266,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "Process.Start(\"cmd.exe\", \"/C type \" + file);",
+    "linkToAffectedCode": "sqli.cs#44",
+    "recommendedFixedVersion": "",
+    "details": "The software constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component.",
+    "status": "ALERT",
+    "recommendationText": "To prevent OS command injection vulnerabilities, ensure that any external input used in command execution is properly validated or sanitized. Instead of passing raw user input directly into command execution functions, consider using safer alternatives, such as built-in library methods that do not involve executing OS commands, or validating input against a strict set of allowable values. Additionally, use libraries like System.Diagnostics.ProcessStartInfo safely by avoiding setting FileName and Arguments directly with user-supplied data. Input filtering or whitelisting is crucial to mitigate risks associated with command injection.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "OS Command Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/78",
+      "recommendationText": "To prevent OS command injection vulnerabilities, ensure that any external input used in command execution is properly validated or sanitized. Instead of passing raw user input directly into command execution functions, consider using safer alternatives, such as built-in library methods that do not involve executing OS commands, or validating input against a strict set of allowable values. Additionally, use libraries like System.Diagnostics.ProcessStartInfo safely by avoiding setting FileName and Arguments directly with user-supplied data. Input filtering or whitelisting is crucial to mitigate risks associated with command injection.",
+      "fixExample": {
+        "before": "using System.Diagnostics;\n\nstring userInput = GetUserInput();\nProcess.Start(\"someCommand.exe\", userInput);",
+        "after": "using System.Diagnostics;\n\nstring userInput = GetUserInput();\n\n// Validate or sanitize user input here based on application context.\nif (IsValidInput(userInput)) {\n    ProcessStartInfo startInfo = new ProcessStartInfo();\n    startInfo.FileName = \"someCommand.exe\";\n    startInfo.Arguments = userInput;\n    Process.Start(startInfo);\n} else {\n    // Handle invalid input\n}\n\n// Note: The IsValidInput function must be tailored to application requirements."
+      }
+    }
+  },
+  {
+    "findingName": "OS Command Injection",
+    "findingId": 2.8056842198274756,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)",
+    "linkToAffectedCode": "bad.py#244",
+    "recommendedFixedVersion": "",
+    "details": "Found `subprocess` function `Popen` with `shell=True`. This is dangerous because this call will\n    spawn the command using a shell process. Doing so propagates current shell settings and\n    variables,\n    which makes it much easier for a malicious actor to execute commands. Use `shell=False`\n    instead.\n    ",
+    "status": "ALERT",
+    "recommendationText": "Replace calls to 'subprocess' with 'shell=True' with alternatives that use 'shell=False'. This is safer because it avoids executing commands through a shell, thereby minimizing the risk of OS command injection. Always validate and sanitize any user input that may be used in command execution to further reduce vulnerabilities. Consider using built-in libraries for argument handling like 'shlex.quote' to escape commands properly when needed.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "OS Command Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/78",
+      "recommendationText": "Replace calls to 'subprocess' with 'shell=True' with alternatives that use 'shell=False'. This is safer because it avoids executing commands through a shell, thereby minimizing the risk of OS command injection. Always validate and sanitize any user input that may be used in command execution to further reduce vulnerabilities. Consider using built-in libraries for argument handling like 'shlex.quote' to escape commands properly when needed.",
+      "fixExample": {
+        "before": "import subprocess\n\nsubprocess.Popen('ls -la', shell=True)",
+        "after": "import subprocess\nimport shlex\n\nsubprocess.Popen(shlex.split('ls -la'))  # Ensure command is sanitized as necessary"
+      }
+    }
+  },
+  {
+    "findingName": "Eval Injection",
+    "findingId": 1.5185476502460005,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "result = eval(expression)",
+    "linkToAffectedCode": "bad.py#229",
+    "recommendedFixedVersion": "",
+    "details": "Detected the use of `eval()`. `eval()` can be dangerous if used to evaluate dynamic content. If\n        this\n        content can be input from outside the program, thismay be a code injection vulnerability.\n        Ensure evaluated content is not definableby external sources. Consider using safer\n        `ast.literal_eval`.\n        ",
+    "status": "ALERT",
+    "recommendationText": "Replace the use of `eval()` with safer alternatives such as `ast.literal_eval()` for evaluating literals or implement strict input validation and whitelisting techniques. Ensure that any user input is sanitized and validated appropriately to mitigate risks of code injection. Consider implementing a proper security review process to assess the necessity of dynamic evaluation in the application context, and if possible, refactor the code to avoid these constructs altogether.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Eval Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/95",
+      "recommendationText": "Replace the use of `eval()` with safer alternatives such as `ast.literal_eval()` for evaluating literals or implement strict input validation and whitelisting techniques. Ensure that any user input is sanitized and validated appropriately to mitigate risks of code injection. Consider implementing a proper security review process to assess the necessity of dynamic evaluation in the application context, and if possible, refactor the code to avoid these constructs altogether.",
+      "fixExample": {
+        "before": "result = eval(user_input)",
+        "after": "import ast\n\n# Use ast.literal_eval for safer evaluation\nresult = ast.literal_eval(user_input)  # Ensure user_input is sanitized and appropriate for literals"
+      }
+    }
+  },
+  {
+    "findingName": "OS Command Injection",
+    "findingId": 1.3494458958879263,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "exec(code, globals, locals)",
+    "linkToAffectedCode": "more_bad_code.py#46",
+    "recommendedFixedVersion": "",
+    "details": "The use of `exec` is risky.\n    ",
+    "status": "ALERT",
+    "recommendationText": "Avoid using exec() due to security risks associated with arbitrary code execution. Instead, use safer alternatives such as the 'ast.literal_eval' for evaluating simple expressions or rely on whitelisting and validation techniques to handle user inputs rigorously. Ensure that any inputs are properly sanitized and validated to mitigate the risk of code injection.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "OS Command Injection",
+      "cweReference": "https://appsec.backslash.security/cwe/78",
+      "recommendationText": "Avoid using exec() due to security risks associated with arbitrary code execution. Instead, use safer alternatives such as the 'ast.literal_eval' for evaluating simple expressions or rely on whitelisting and validation techniques to handle user inputs rigorously. Ensure that any inputs are properly sanitized and validated to mitigate the risk of code injection.",
+      "fixExample": {
+        "before": "user_input = \"__import__('os').system('rm -rf /')\"\nexec(user_input)",
+        "after": "import ast\nuser_input = 'safe_input']\n# Validate and sanitize input according to context\nif user_input in allowed_commands:  # allowed_commands should be predefined\n    # Execute safely, using a secure method instead of exec\n    safe_method(user_input)\n# Note: Validation and sanitization can be modified according to specific application needs."
+      }
+    }
+  },
+  {
+    "findingName": "Deserialization of Untrusted Data",
+    "findingId": 6.441065821280163,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "return pickle.dumps(type), pickle.dumps(exc)",
+    "linkToAffectedCode": "more_bad_code.py#108",
+    "recommendedFixedVersion": "",
+    "details": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities.\n            When unpickling, the serialized data could be manipulated to run arbitrary code.\n            Instead, consider serializing the relevant data as JSON or a similar text-based\n            serialization format.\n            ",
+    "status": "ALERT",
+    "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Deserialization of Untrusted Data",
+      "cweReference": "https://appsec.backslash.security/cwe/502",
+      "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+      "fixExample": {
+        "before": "import pickle\n\nserialized_data = ...\nresult = pickle.loads(serialized_data)",
+        "after": "import json\n\nserialized_data = ...\n# Validate or sanitize data here if necessary\nresult = json.loads(serialized_data) # The sanitization or validation function can be modified according to the software engineer's requirements."
+      }
+    }
+  },
+  {
+    "findingName": "Deserialization of Untrusted Data",
+    "findingId": 2.409466187264091,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "return pickle.dumps(type), pickle.dumps(exc)",
+    "linkToAffectedCode": "more_bad_code.py#108",
+    "recommendedFixedVersion": "",
+    "details": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities.\n            When unpickling, the serialized data could be manipulated to run arbitrary code.\n            Instead, consider serializing the relevant data as JSON or a similar text-based\n            serialization format.\n            ",
+    "status": "ALERT",
+    "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Deserialization of Untrusted Data",
+      "cweReference": "https://appsec.backslash.security/cwe/502",
+      "recommendationText": "Avoid using `pickle` for deserialization of untrusted data due to the risk of arbitrary code execution. Instead, use safer alternatives like `json` for serialization and deserialization, as it ensures the integrity and safety of the data while reducing the risk of security vulnerabilities. Ensure that any data that requires serialization is validated and escaped as necessary. JSON is a text-based format that is typically safe to parse and does not execute code.",
+      "fixExample": {
+        "before": "import pickle\n\nserialized_data = ...\nresult = pickle.loads(serialized_data)",
+        "after": "import json\n\nserialized_data = ...\n# Validate or sanitize data here if necessary\nresult = json.loads(serialized_data) # The sanitization or validation function can be modified according to the software engineer's requirements."
+      }
+    }
+  },
+  {
+    "findingName": "Path Traversal",
+    "findingId": 6.287822992256544,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "const entries = await fs.readdir(currentPath, { withFileTypes: true })",
+    "linkToAffectedCode": "findCursorDirectory.ts#31",
+    "recommendedFixedVersion": "",
+    "details": "The application dynamically constructs file or path information. If the path\n      information comes from user-supplied input, it could be abused to read sensitive files,\n      access other users' data, or aid in exploitation to gain further system access.\n      ",
+    "status": "ALERT",
+    "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Path Traversal",
+      "cweReference": "https://appsec.backslash.security/cwe/22",
+      "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+      "fixExample": {}
+    }
+  },
+  {
+    "findingName": "Path Traversal",
+    "findingId": 9.474455638897535,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "const stat = await fs.stat(mcpJsonPath)",
+    "linkToAffectedCode": "findCursorDirectory.ts#75",
+    "recommendedFixedVersion": "",
+    "details": "The application dynamically constructs file or path information. If the path\n    information comes from user-supplied input, it could be abused to read sensitive files,\n    access other users' data, or aid in exploitation to gain further system access.\n    ",
+    "status": "ALERT",
+    "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Path Traversal",
+      "cweReference": "https://appsec.backslash.security/cwe/22",
+      "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+      "fixExample": {}
+    }
+  },
+  {
+    "findingName": "Path Traversal",
+    "findingId": 2.4657743302612856,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "const entries = await fs.readdir(currentPath, { withFileTypes: true })",
+    "linkToAffectedCode": "findCursorDirectory.ts#102",
+    "recommendedFixedVersion": "",
+    "details": "The application dynamically constructs file or path information. If the path\n      information comes from user-supplied input, it could be abused to read sensitive files,\n      access other users' data, or aid in exploitation to gain further system access.\n      ",
+    "status": "ALERT",
+    "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Path Traversal",
+      "cweReference": "https://appsec.backslash.security/cwe/22",
+      "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+      "fixExample": {}
+    }
+  },
+  {
+    "findingName": "Path Traversal",
+    "findingId": 5.021915794854859,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "const mcpJsonContent = await fs.readFile(mcpJsonPath, 'utf-8')",
+    "linkToAffectedCode": "findCursorDirectory.ts#147",
+    "recommendedFixedVersion": "",
+    "details": "The application dynamically constructs file or path information. If the path\n          information comes from user-supplied input, it could be abused to read sensitive files,\n          access other users' data, or aid in exploitation to gain further system access.\n          ",
+    "status": "ALERT",
+    "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Path Traversal",
+      "cweReference": "https://appsec.backslash.security/cwe/22",
+      "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+      "fixExample": {}
+    }
+  },
+  {
+    "findingName": "Path Traversal",
+    "findingId": 9.21853820063582,
+    "policyCategory": "VULNERABLE_CODE",
+    "findingType": "VULNERABILITY",
+    "codeSnippet": "const fileBuffer = await fs.readFile(filePath)",
+    "linkToAffectedCode": "findCursorDirectory.ts#191",
+    "recommendedFixedVersion": "",
+    "details": "The application dynamically constructs file or path information. If the path\n  information comes from user-supplied input, it could be abused to read sensitive files,\n  access other users' data, or aid in exploitation to gain further system access.\n  ",
+    "status": "ALERT",
+    "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+    "additionalData": {
+      "severity": "MEDIUM",
+      "cwe": "Path Traversal",
+      "cweReference": "https://appsec.backslash.security/cwe/22",
+      "recommendationText": "To remediate Path Traversal follow the Potential Mitigations section in this link:\n https://appsec.backslash.security/cwe/22",
+      "fixExample": {}
+    }
+  }
+]
