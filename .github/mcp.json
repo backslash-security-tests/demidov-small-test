@@ -1,13 +1,19 @@
 {
   "mcpServers": {
     "github-redis": {
+      "command": "/Users/demidov/DEV/backslash/vscode-plugin/bin/mcp-gateway-darwin-arm64",
       "args": [
-        "run",
-        "-i",
-        "mcp/redis",
-        "redis://host.docker.internal:6379"
+        "eyJzb3VyY2VJZGVudGlmaWVyIjp7ImlkIjoiYldOd0wzSmxaR2x6T2pwa2IyTnJaWEk9IiwidGFyZ2V0IjoibWNwL3JlZGlzIn0sImNvbW1hbmQiOiJkb2NrZXIiLCJhcmdzIjpbInJ1biIsIi1pIiwibWNwL3JlZGlzIiwicmVkaXM6Ly9ob3N0LmRvY2tlci5pbnRlcm5hbDo2Mzc5Il0sInNpbGVudE1vZGUiOmZhbHNlLCJuYW1lIjoiZ2l0aHViLXJlZGlzIiwiYWdlbnRUeXBlIjoiY3Vyc29yIn0="
       ],
-      "command": "docker"
+      "originalConfig": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "mcp/redis",
+          "redis://host.docker.internal:6379"
+        ]
+      }
     }
   }
 }

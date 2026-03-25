@@ -1,11 +1,11 @@
 {
   "mcpServers": {
-    "postgres-claude-project": {
+    "demidov-small-test-postgres": {
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-postgres-claude-project",
-        "postgresql://backslash:password@localhost:5432/postgres-claude-project"
+        "@modelcontextprotocol/demidov-small-test-postgres",
+        "postgresql://backslash:password@localhost:5432/demidov-small-test-postgres"
       ]
     }
   }

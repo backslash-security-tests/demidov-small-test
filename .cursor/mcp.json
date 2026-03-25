@@ -1,8 +1,34 @@
 {
   "mcpServers": {
-    "redis": {
-      "args": ["run", "-i", "mcp/redis", "redis://host.docker.internal:6379"],
-      "command": "docker"
+    "backslash-server": {
+      "command": "/Users/demidov/DEV/backslash/vscode-plugin/bin/mcp-gateway-darwin-arm64",
+      "args": [
+        "eyJzb3VyY2VJZGVudGlmaWVyIjp7ImlkIjoiWjJsMFFHZHBkR2gxWWk1amIyMDZZbUZqYTNOc1lYTm9MWE5sWTNWeWFYUjVMM1p6WTI5a1pTMXdiSFZuYVc0dVoybDBPanB1YjJSbCIsInRhcmdldCI6ImdpdEBnaXRodWIuY29tOmJhY2tzbGFzaC1zZWN1cml0eS92c2NvZGUtcGx1Z2luLmdpdCJ9LCJjb21tYW5kIjoibm9kZSIsImFyZ3MiOlsiYzpcXFVzZXJzXFxBZG1pblxcLmN1cnNvclxcZXh0ZW5zaW9uc1xcYmFja3NsYXNoc2VjLmJhY2tzbGFzaC1zY2FuLTQuNC41NC11bml2ZXJzYWxcXGRpc3RcXGJhY2tzbGFzaC1tY3Atc2VydmVyXFxzZXJ2ZXIuanMiXSwiZW52Ijp7IkFQSV9LRVkiOiJleUpoYkdjaU9pSlNVekkxTmlJc0luUjVjQ0k2SWtwWFZDSXNJbXRwWkNJNklqTTFNV0U1TVdGbEluMC5leUp6ZFdJaU9pSmxZVFkwWTJGbFl5MHhaR1U1TFRSaU56SXRPVFJtWXkwNU56WmlNalJoTUdVNVlXUWlMQ0owZVhCbElqb2lkR1Z1WVc1MFFXTmpaWE56Vkc5clpXNGlMQ0owWlc1aGJuUkpaQ0k2SW1OaE5EUmhPRE5pTFdJeU9HWXROR1E0TUMwNU1XVTFMVE0zTVdObE9EaGpOMkV3TkNJc0ltRndjR3hwWTJGMGFXOXVTV1FpT2lKallqRTFNVEk0TnkwMVpERXpMVFJoT1RRdE9ETmhOaTA1TUdNM1kyRmtPV1ZrWW1JaUxDSnliMnhsY3lJNld5SkdSVlJEU0MxU1QweEZVeTFDV1MxQlVFa2lYU3dpY0dWeWJXbHpjMmx2Ym5NaU9sc2lSa1ZVUTBndFVFVlNUVWxUVTBsUFRsTXRRbGt0UVZCSklsMHNJbUYxWkNJNklqTTFNV0U1TVdGbExXTmlaR1F0TkRZeE1DMDROVGd4TFRCbFpHWmxaVFZoTldZMU1pSXNJbWx6Y3lJNkltaDBkSEJ6T2k4dllYVjBhQzVpWVdOcmMyeGhjMmd1YzJWamRYSnBkSGtpTENKcFlYUWlPakUzTmpnek9UVXpPRFI5LmxVajN0NVdfU2ZoQ3JsVnd6Vl9pUjFmSWhuZTNuWkR4SmRoLXY4UkVhcUlQbllMTmhqemdoM0VMb0llcmdqMHJndzBoN0Y0cV96UWMzU2Z0V3poSUp1dl9OR2hnMVBXb0hBRi1lWk9tT3B3RVZqWHp6OW0tQV8yUkJaWVFkRUN2Rzd6ZzEtWlV1U0MzSE84Zm5Nal94em92NGJhT3VvM1lIWFhJVnRkaVh5RFhIbVFFOEt3REU0aEtaTTZnWW5odVNOVHRYZDFUM3U5WUZuN0ZqNnpVREw5b0FTWTU3SHNCSTJBbURyS25Rc1lFVWg1bkJkT2g2Vm1YQWh0VDNRNzhGbUhDTlcwNjVGMUNTOE1jY2dRSklCQ1FBQzlYNkdvd240WURZWmlJS2FPbUVwaHY5MVFVSzVvU3Z1YnZOeWY2UlVoNWFpTzF6SlVzRzl4c2UzOV9qZyJ9LCJzaWxlbnRNb2RlIjpmYWxzZSwibmFtZSI6ImJhY2tzbGFzaC1zZXJ2ZXIiLCJhZ2VudFR5cGUiOiJjdXJzb3IifQ=="
+      ],
+      "originalConfig": {
+        "command": "node",
+        "args": [
+          "c:\\Users\\Admin\\.cursor\\extensions\\backslashsec.backslash-scan-4.4.54-universal\\dist\\backslash-mcp-server\\server.js"
+        ],
+        "env": {
+          "API_KEY": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjM1MWE5MWFlIn0.eyJzdWIiOiJlYTY0Y2FlYy0xZGU5LTRiNzItOTRmYy05NzZiMjRhMGU5YWQiLCJ0eXBlIjoidGVuYW50QWNjZXNzVG9rZW4iLCJ0ZW5hbnRJZCI6ImNhNDRhODNiLWIyOGYtNGQ4MC05MWU1LTM3MWNlODhjN2EwNCIsImFwcGxpY2F0aW9uSWQiOiJjYjE1MTI4Ny01ZDEzLTRhOTQtODNhNi05MGM3Y2FkOWVkYmIiLCJyb2xlcyI6WyJGRVRDSC1ST0xFUy1CWS1BUEkiXSwicGVybWlzc2lvbnMiOlsiRkVUQ0gtUEVSTUlTU0lPTlMtQlktQVBJIl0sImF1ZCI6IjM1MWE5MWFlLWNiZGQtNDYxMC04NTgxLTBlZGZlZTVhNWY1MiIsImlzcyI6Imh0dHBzOi8vYXV0aC5iYWNrc2xhc2guc2VjdXJpdHkiLCJpYXQiOjE3NjgzOTUzODR9.lUj3t5W_SfhCrlVwzV_iR1fIhne3nZDxJdh-v8REaqIPnYLNhjzgh3ELoIergj0rgw0h7F4q_zQc3SftWzhIJuv_NGhg1PWoHAF-eZOmOpwEVjXzz9m-A_2RBZYQdECvG7zg1-ZUuSC3HO8fnMj_xzov4baOuo3YHXXIVtdiXyDXHmQE8KwDE4hKZM6gYnhuSNTtXd1T3u9YFn7Fj6zUDL9oASY57HsBI2AmDrKnQsYEUh5nBdOh6VmXAhtT3Q78FmHCNW065F1CS8MccgQJIBCQAC9X6Gown4YDYZiIKaOmEphv91QUK5oSvubvNyf6RUh5aiO1zJUsG9xse39_jg"
+        }
+      }
+    },
+    "demidov-small-test": {
+      "command": "/Users/demidov/DEV/backslash/vscode-plugin/bin/mcp-gateway-darwin-arm64",
+      "args": [
+        "eyJzb3VyY2VJZGVudGlmaWVyIjp7ImlkIjoiYldOd0wyUmxiV2xrYjNZdGMyMWhiR3d0ZEdWemREbzZaRzlqYTJWeSIsInRhcmdldCI6Im1jcC9kZW1pZG92LXNtYWxsLXRlc3QifSwiY29tbWFuZCI6ImRvY2tlciIsImFyZ3MiOlsicnVuIiwiLWkiLCJtY3AvZGVtaWRvdi1zbWFsbC10ZXN0IiwicmVkaXM6Ly9ob3N0LmRvY2tlci5pbnRlcm5hbDo2Mzc5Il0sInNpbGVudE1vZGUiOmZhbHNlLCJuYW1lIjoiZGVtaWRvdi1zbWFsbC10ZXN0IiwiYWdlbnRUeXBlIjoiY3Vyc29yIn0="
+      ],
+      "originalConfig": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "mcp/demidov-small-test",
+          "redis://host.docker.internal:6379"
+        ]
+      }
     }
   }
 }

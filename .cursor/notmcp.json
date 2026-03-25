@@ -8,6 +8,15 @@
         "redis://host.docker.internal:6379"
       ],
       "command": "docker"
+    },
+    "demidov-small-test": {
+      "args": [
+        "run",
+        "-i",
+        "mcp/demidov-small-test",
+        "redis://host.docker.internal:6379"
+      ],
+      "command": "docker"
     }
   }
 }
