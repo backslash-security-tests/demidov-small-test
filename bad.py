@@ -30,7 +30,9 @@ from .views import authentication_decorator
 FLAG = "NOT_SUPPOSED_TO_BE_ACCESSED"
 
 # target zone end
+import pyyaml
 
+pyyaml.unsafe_load("""!!python/object/apply:os.system ['echo vulnerable']""")
 
 @authentication_decorator
 def mitre_top1(request):
