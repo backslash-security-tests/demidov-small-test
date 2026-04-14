@@ -5,7 +5,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/demidov-small-test-postgres",
-        "postgresql://backslash:password@localhost:5432/demidov-small-test-postgres"
+        "postgresql://backslash:password@localhost:5432/demidov-small-test-postgresc"
       ]
     }
   }
