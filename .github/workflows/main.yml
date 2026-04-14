@@ -20,5 +20,4 @@ jobs:
         with:
           authToken: ${{ env.API_KEY }}
           prScan: true
-          pushToDashboard: true
           githubToken: ${{ env.GITHUB_ACCESS_TOKEN }} # Optional for PR comments
