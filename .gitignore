@@ -10,7 +10,7 @@ yarn.lock
 dist/
 build/
 *.tsbuildinfo
-
+ai
 # TypeScript cache
 *.tsbuildinfo
 
@@ -20,6 +20,7 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+grass
 
 # IDE specific files
 .idea/
