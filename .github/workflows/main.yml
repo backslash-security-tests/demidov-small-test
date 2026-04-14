@@ -7,8 +7,8 @@ on:
     - main
 
 env:
-  API_KEY: ${{ secrets.BACKSLASH_API_KEY }}
-  GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Alternativley you can use a dedicated token
+  API_KEY: ${{ secrets.AUTH_TOKEN }}
+  GITHUB_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }} # Alternativley you can use a dedicated token
 
 jobs:
   backslash-scan:
